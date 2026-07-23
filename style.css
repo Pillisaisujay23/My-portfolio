@@ -726,3 +726,11 @@ main{
     }
 
 }
+
+
+/* Hide 3D robot on phones */
+@media (max-width: 768px) {
+    .robot-3d {
+        display: none;
+    }
+}
